@@ -76,6 +76,20 @@ public class JpqlTest {
             System.out.println(customer1);
         }
     }
+    @Test
+    public void testFindByCustName(){
+        List<Customer> list = customerDao.findByCustName("传智播客");
+        for (Customer customer1 : list) {
+            System.out.println(customer1);
+        }
+    }
+    @Test
+    public void testFindByCustNameAndCustAddress(){
+        List<Customer> list = customerDao.findByCustNameAndCustAddress("传智播客1", "重庆");
+        for (Customer customer1 : list) {
+            System.out.println(customer1);
+        }
+    }
 
 
 }

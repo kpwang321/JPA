@@ -37,6 +37,12 @@ public interface CustomerDao extends JpaRepository<Customer,Long>,JpaSpecificati
     List<Customer> findCondition1(@Param("customer") Customer customer);
 
 
+    //方法名命名    不需要注解  findBy+属性名+And/Or
+    List<Customer> findByCustName(String name);
+
+    List<Customer> findByCustNameAndCustAddress(String name,String address);
+
+
 
 
 
