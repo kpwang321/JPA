@@ -108,7 +108,6 @@ public class Customer {
                 ", custName='" + custName + '\'' +
                 ", custPhone='" + custPhone + '\'' +
                 ", custSource='" + custSource + '\'' +
-                ", linkMans=" + linkMans +
                 '}';
     }
 }
