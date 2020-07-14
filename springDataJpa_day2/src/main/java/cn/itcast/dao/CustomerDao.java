@@ -28,7 +28,7 @@ public interface CustomerDao extends JpaRepository<Customer,Long>,JpaSpecificati
     @Modifying//声明更新操作
     void updateNameById(Long id,String custName);
 
-    @Query(value = "select * from cst_customer",nativeQuery = true)
+    @Query(value = "select * from cst_customer",nativeQuery = true)//nativeQuery = true代表使用sql
     List<Customer> findSql();
 
     @Query(value = "select * from cst_customer where cust_name like ?",nativeQuery = true)
