@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="jpa_day1" />
+        <module name="springDataJpa_day02_one2many" />
         <module name="springDataJpa_day2" />
+        <module name="springDataJpa_day3" />
+        <module name="springDataJpa_day3_one2many" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="jpa_day1" target="1.5" />
+      <module name="springDataJpa_day02_one2many" target="1.5" />
       <module name="springDataJpa_day2" target="1.5" />
+      <module name="springDataJpa_day3" target="1.5" />
+      <module name="springDataJpa_day3_one2many" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/jpa_day1/jpa_day1.iml" filepath="$PROJECT_DIR$/jpa_day1/jpa_day1.iml" />
       <module fileurl="file://$PROJECT_DIR$/springDataJpa_day2/springDataJpa_day2.iml" filepath="$PROJECT_DIR$/springDataJpa_day2/springDataJpa_day2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springDataJpa_day3/springDataJpa_day3.iml" filepath="$PROJECT_DIR$/springDataJpa_day3/springDataJpa_day3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springDataJpa_day3_one2many/springDataJpa_day3_one2many.iml" filepath="$PROJECT_DIR$/springDataJpa_day3_one2many/springDataJpa_day3_one2many.iml" />
     </modules>
   </component>
 </project>

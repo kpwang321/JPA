@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/jpa_day1/pom.xml" />
         <option value="$PROJECT_DIR$/springDataJpa_day2/pom.xml" />
+        <option value="$PROJECT_DIR$/springDataJpa_day3/pom.xml" />
+        <option value="$PROJECT_DIR$/springDataJpa_day02_one2many/pom.xml" />
+        <option value="$PROJECT_DIR$/springDataJpa_day3_one2many/pom.xml" />
       </list>
     </option>
   </component>
